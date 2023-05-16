@@ -1,0 +1,61 @@
+
+
+.price-list-header,
+.bundle-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-list-header p,
+.bundle-header p {
+  max-width: 45ch;
+  text-align: center;
+} 
+
+.price-list-body {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  justify-content: center;
+  gap: 3%;
+}
+
+.video-prices,
+.photo-prices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-price-list,
+.photo-price-list,
+.bundle-prices {
+  min-width: 100%;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product span {
+  font-size: 1.25rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* BUNDLE SECTION */
+
+.bundle-prices-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.bundle-prices span {
+  color: rgb(255, 42, 42);
+  font-weight: 400;
+}
