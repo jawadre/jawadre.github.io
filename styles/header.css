@@ -1,0 +1,136 @@
+/* HEADER STYLING */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.875rem 5%;
+  }
+  
+  .logo-container,
+  .hero-logo {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  header a {
+    color: #333;
+    text-decoration-line: none;
+  }
+  
+  .nav-bar {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .header-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    font-family: 'Catamaran', sans-serif;
+    color: #333;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    scale: 1.2;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+  }
+  
+  .nav-link:active {
+    scale: 1;
+  }
+  
+  #current-page {
+    color: #8976FD;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    font-size: 1.5rem;
+  }
+  
+  .enquire-button {
+    cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    background-color: #8976FD;
+    padding: 1rem 1.25rem;
+    border: none;
+    border-radius: 15px;
+    white-space: nowrap;
+    transition: 0.3s ease;
+  }
+  
+  .enquire-button:hover {
+    scale: 1.2;
+    background-color: #FCA61F;
+  }
+  
+  .enquire-button:active {
+    scale: 1;
+    opacity: 0.6;
+  }
+  
+/* RESPONSIVE DESIGN */
+
+  @media (max-width: 850px) {
+    .logo-container,
+    .hero-logo {
+      font-size: 2.25rem;
+    }
+    .nav-link a {
+      font-size: 1.125rem;
+    }
+
+    #current-page {
+      font-size: 1.25rem;
+    }
+
+    .enquire-button {
+      font-size: 1.125rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+
+    header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2%;
+    }
+
+    .logo-container,
+    .hero-logo {
+      font-size: 2rem;
+    }
+    .nav-link a {
+      font-size: 1rem;
+      text-decoration-line: underline;
+      text-underline-offset: 8px;
+    }
+
+    #current-page {
+      font-size: 1rem;
+    }
+
+    .enquire-button {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+      margin-top: 10px;
+    }
+
+    .nav-bar {
+      width: 100%;
+    }
+  }
