@@ -1,0 +1,72 @@
+/* FONT IMPORTS */
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url('../fonts/Catamaran/Catamaran-VariableFont_wght.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+
+/* GENERAL STYLING */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-underline-offset: 10px;
+  color: white;
+}
+
+button {
+  font-size: 1.25rem;
+}
+
+img {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #33333377;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#333;
+  height: 1px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 825px) {
+
+  body {
+    font-size: 1rem;
+  }
+
+}
