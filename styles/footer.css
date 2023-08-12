@@ -33,6 +33,17 @@ footer {
     scale: 1.2;
   }
 
+  .tiktok-icon {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .tiktok-icon svg {
+    transform: scale(0.8);
+  }
+
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 500px) {
