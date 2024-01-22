@@ -18,7 +18,7 @@ portfolioItems.forEach(item => {
         // Create iframe element dynamically
         const iframe = document.createElement('iframe');
         iframe.src = videoUrl;
-        iframe.title = "YouTube video player";
+        iframe.title = "Vimeo video player";
         iframe.frameBorder = 0;
         iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
         iframe.allowFullscreen = true;
